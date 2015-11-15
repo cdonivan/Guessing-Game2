@@ -99,3 +99,12 @@ else {
 	alert("Eh, I'd argue that the difference between a room and a house is not the point.");
 }
 }
+
+var Question6=prompt("On which day of October 2015 was the Canadian federal election held?");
+console.log(Question6);
+if (Question6 == "19") {
+	alert("That's right! What an exciting day for Justin Trudeau.");
+} 
+else {
+	alert("It was on the 19th of October that Justin Trudeau was elected.");
+}
