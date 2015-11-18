@@ -6,12 +6,12 @@ function Question1(){
 
 	if(answer1 == "yes" || answer1 == "y" || answer1 == "YES" || answer1 == "Y" || answer1 == "Yes"){
 		console.log("yes");
-		alert("That's right! (Should be, anyways.)");
+		x1.innerHTML = ("That's right! (Should be, anyways.)");
 		}
 
 	else if (answer1 == "no" || answer1 == "n" || answer1 == "NO" || answer1 == "N" || answer1 == "No") {
 		console.log("no");
-		alert("Underneath all that grey is a bit of blue.");
+		x1.innerHTML = ("Underneath all that grey is a bit of blue.");
 		}
 
 	else {
@@ -20,10 +20,10 @@ function Question1(){
 		var Question1alt=prompt("Is the sky blue?");
 		console.log(Question1alt);
 			if (Question1alt == "yes" || Question1alt == "y" || Question1alt == "YES" || Question1alt == "Y" || Question1alt == "Yes") {
-			alert("That's right! (Should be, anyways.)");
+			x1.innerHTML = ("That's right! (Should be, anyways.)");
 			} 
 			else if (Question1alt == "no" || Question1alt == "n" || Question1alt == "NO" || Question1alt == "N" || Question1alt == "No") {
-			alert("Underneath all that grey is a bit of blue.");
+			x1.innerHTML = ("Underneath all that grey is a bit of blue.");
 			}
 		}
 
@@ -39,12 +39,12 @@ function Question2(){
 
 	if (answer2 == "yes" || answer2 == "y" || answer2 == "YES" || answer2 == "Y" || answer2 == "Yes") {
 		console.log("yes");
-		alert("No, silly, the Andes are in South America and Andorra is in Europe!");
+		x2.innerHTML = ("No, silly, the Andes are in South America and Andorra is in Europe!");
 		} 
 
 	else if (answer2 == "no" || answer2 == "n" || answer2 == "NO" || answer2 == "N" || answer2 == "No") {
 		console.log("no");
-		alert("Can't fool you. The Andes are in South America and Andorra is in Europe.");
+		x2.innerHTML = ("Can't fool you. The Andes are in South America and Andorra is in Europe.");
 		}
 
 	else {
@@ -52,10 +52,10 @@ function Question2(){
 	var question2alt=prompt("Is Andorra in the Andes?");
 	console.log(question2alt);
 		if (question2alt == "yes" || question2alt == "y" || question2alt == "YES" || question2alt == "Y" || question2alt == "Yes") {
-		alert("No, silly, the Andes are in South America and Andorra is in Europe!");
+		x2.innerHTML = ("No, silly, the Andes are in South America and Andorra is in Europe!");
 		} 
 		else if (question2alt == "no" || question2alt == "n" || question2alt == "NO" || question2alt == "N" || question2alt == "No") {
-		alert("Can't fool you. The Andes are in South America and Andorra is in Europe.");
+		x2.innerHTML = ("Can't fool you. The Andes are in South America and Andorra is in Europe.");
 		}
 		}
 }
@@ -71,12 +71,12 @@ function Question3(){
 
 	if (answer3 == "yes" || answer3 == "y" || answer3 == "YES" || answer3 == "Y" || answer3 == "Yes") {
 	console.log("yes");
-	alert("I couldn't agree more!");
+	x3.innerHTML = ("I couldn't agree more!");
 	} 
 
 	else if (answer3 == "no" || answer3 == "n" || answer3 == "NO" || answer3 == "N" || answer3 == "No") {
 	console.log("no");
-	alert("What could possibly be better than Christmas lights?");
+	x3.innerHTML = ("What could possibly be better than Christmas lights?");
 	}
 
 	else {
@@ -84,10 +84,10 @@ function Question3(){
 	var Question3alt=prompt("Aren't Christmas lights the best?");
 	console.log(Question3alt);
 		if (Question3alt == "yes" || Question3alt == "y" || Question3alt == "YES" || Question3alt == "Y" || Question3alt == "Yes") {
-		alert("I couldn't agree more!");
+		x3.innerHTML = ("I couldn't agree more!");
 		} 
 		else if (Question3alt == "no" || Question3alt == "n" || Question3alt == "NO" || Question3alt == "N" || Question3alt == "No") {
-		alert("What could possibly be better than Christmas lights?");
+		x3.innerHTML = ("What could possibly be better than Christmas lights?");
 		}
 	}
 }	
@@ -102,12 +102,12 @@ function Question4(){
 
 	if (answer4 == "yes" || answer4 == "y" || answer4 == "YES" || answer4 == "Y" || answer4 == "Yes") {
 	console.log("yes");
-	alert("Nah, it was the Kansas City Royals this year.");
+	x4.innerHTML = ("Nah, it was the Kansas City Royals this year.");
 	} 
 
 	else if (answer4 == "no" || answer4 == "n" || answer4 == "NO" || answer4 == "N" || answer4 == "No") {
 	console.log("no");
-	alert("Sad, isn't it? Next year, for sure!");
+	x4.innerHTML = ("Sad, isn't it? Next year, for sure!");
 	}
 
 	else {
@@ -115,10 +115,10 @@ function Question4(){
 	var Question4alt=prompt("Did the Toronto Blue Jays win the 2015 World Series?");
 	console.log(Question4alt);
 		if (Question4alt == "yes" || Question4alt == "y" || Question4alt == "YES" || Question4alt == "Y" || Question4alt == "Yes") {
-		alert("Nah, it was the Kansas City Royals this year.");
+		x4.innerHTML = ("Nah, it was the Kansas City Royals this year.");
 		} 
 		else if (Question4alt == "no" || Question4alt == "n" || Question4alt == "NO" || Question4alt == "N" || Question4alt == "No") {
-		alert("Sad, isn't it? Next year, for sure!");
+		x4.innerHTML = ("Sad, isn't it? Next year, for sure!");
 		}
 	}
 }
@@ -133,12 +133,12 @@ function Question5(){
 
 if (answer5 == "yes" || answer5 == "y" || answer5 == "YES" || answer5 == "Y" || answer5 == "Yes") {
 	console.log("yes");
-	alert("I agree. A room (or a house) of one's own.");
+	x5.innerHTML = ("I agree. A room (or a house) of one's own.");
 } 
 
 else if (answer5 == "no" || answer5 == "n" || answer5 == "NO" || answer5 == "N" || answer5 == "No") {
 	console.log("no");
-	alert("Eh, I'd argue that the difference between a room and a house is not the point.");
+	x5.innerHTML = ("Eh, I'd argue that the difference between a room and a house is not the point.");
 }
 
 else {
@@ -146,10 +146,10 @@ else {
 	var Question5alt=prompt("Is it fair to say that Sandra Cisneros and Virginia Woolf share the same prized possession?");
 	console.log(Question5alt);
 		if (Question5alt == "yes" || Question5alt == "y" || Question5alt == "YES" || Question5alt == "Y" || Question5alt == "Yes") {
-		alert("I agree. A room (or a house) of one's own.");
+		x5.innerHTML =("I agree. A room (or a house) of one's own.");
 		} 
 		else if (Question5alt == "no" || Question5alt == "n" || Question5alt == "NO" || Question5alt == "N" || Question5alt == "No") {
-		alert("Eh, I'd argue that the difference between a room and a house is not the point.");
+		x5.innerHTML = ("Eh, I'd argue that the difference between a room and a house is not the point.");
 		}
 	}
 }
@@ -162,14 +162,14 @@ function Question6(){
 	var answer6 = prompt("On which day of October 2015 was the Canadian federal election held?");
 	var x6 = document.getElementById("answer6");
 
-if (Question6 == "19") {
+if (answer6 == 19) {
 	console.log("yes");
-	alert("That's right! What an exciting day for Justin Trudeau.");
+	x6.innerHTML = ("That's right! What an exciting day for Justin Trudeau.");
 	} 
 
 else {
 	console.log("no");
-	alert("It was on the 19th of October that Justin Trudeau was elected.");
+	x6.innerHTML = ("It was on the 19th of October that Justin Trudeau was elected.");
 	}
 }
 
