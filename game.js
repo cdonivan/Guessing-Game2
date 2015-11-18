@@ -28,7 +28,6 @@ function Question1(){
 		}
 
 }
-
 console.log(Question1);
 Question1();
 
@@ -59,7 +58,6 @@ function Question2(){
 		}
 		}
 }
-
 console.log(Question2);
 Question2();
 
@@ -91,7 +89,6 @@ function Question3(){
 		}
 	}
 }	
-
 console.log(Question3);
 Question3();
 
@@ -122,7 +119,6 @@ function Question4(){
 		}
 	}
 }
-
 console.log(Question4);
 Question4();
 
@@ -153,7 +149,6 @@ else {
 		}
 	}
 }
-
 console.log(Question5);
 Question5();
 
@@ -172,6 +167,5 @@ else {
 	x6.innerHTML = ("It was on the 19th of October that Justin Trudeau was elected.");
 	}
 }
-
 console.log(Question6);
 Question6();
