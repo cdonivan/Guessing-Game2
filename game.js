@@ -38,7 +38,6 @@ function Question1(){
 			x1.innerHTML = (answers[1]);
 			}
 		}
-
 }
 console.log(Question1);
 Question1();
@@ -77,7 +76,7 @@ function Question2(){
 		div.innerHTML = '<img src="image.jpg" height="200" width="200"/>';
 		document.getElementById("answer2").appendChild(div);
 		}
-		}
+	}
 }
 console.log(Question2);
 Question2();
